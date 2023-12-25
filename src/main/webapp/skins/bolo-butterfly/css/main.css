@@ -3392,7 +3392,7 @@ _:future,
   display: -moz-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: box;
+  /*display: box;*/
   display: flex;
   -webkit-box-align: start;
   -moz-box-align: start;
@@ -3401,7 +3401,7 @@ _:future,
   -webkit-align-items: flex-start;
   align-items: flex-start;
   margin: 0 auto;
-  padding: 2rem 15px;
+  padding: 1rem 15px;
   max-width: 1200px;
 }
 #recent-posts {

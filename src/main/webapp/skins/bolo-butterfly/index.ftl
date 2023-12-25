@@ -29,6 +29,7 @@
 <#include "index-header.ftl">
 <@header type='index'></@header>
 <div id="body-wrap" class="body-index">
+    <#include  "bbtimelist.ftl">
     <main class="layout_page" id="content-inner">
         <#include "article-list.ftl">
     </main>

@@ -4318,3 +4318,46 @@ a {
   background-color: #e7e7f0 !important;
 }
 
+//BBtimelist CSS start
+#bbTimeList{
+  color: var(--mj-fontcolor);
+  box-shadow: var(--mj-shadow-lightblack);
+  padding: 0.6rem 1rem 0.5rem 1rem;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .3s;
+  display: flex;
+  background: var(--mj-card-bg);
+  /*border: var(--style-border);*/
+  //margin-top: 1rem;
+  background-color: #a4bc72;
+  width: 1200px;
+}
+/*#bbTimeList:hover{border: var(--style-hover-border);}*/
+.bber-logo {
+  line-height: 25px !important;
+  margin-right: 8px;
+  transition: .3s;
+  cursor: pointer;
+}
+.bber-gotobb {
+  line-height: 25px !important;
+  margin-left: 8px;
+  transition: .3s;
+  cursor: pointer;
+}
+.swiper-container {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+  height: 1.2rem;
+  font-size: 0.7rem;
+}
+.bbtime_layout_page {
+  padding-bottom: 0 !important;
+}
+//BBtimelist CSS end

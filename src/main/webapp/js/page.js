@@ -405,13 +405,13 @@ $.extend(Page.prototype, {
         }
         if ($('#commentRef' + id).length > 0) {
             // 此处重复设置 top 是由于评论为异步，原有回复评论的显示位置应往下移动
-            $('#commentRef' + id).show().css('top', (positionTop + top) + 'px')
+            $('#commentRef' + id).show().css('top', (positionTop + top) + 'px');
         } else {
             var $refComment = $('#' + id).clone();
             $refComment.addClass('comment-body-ref').attr('id', 'commentRef' + id);
             $refComment.find('#replyForm').remove();
             $('#comments').append($refComment);
-            $('#commentRef' + id).css('top', (positionTop + top) + 'px')
+            $('#commentRef' + id).css('top', (positionTop + top) + 'px');
         }
     },
     /*
